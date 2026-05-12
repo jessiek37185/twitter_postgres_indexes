@@ -1,8 +1,10 @@
-Command 'docker-compose' not found, but can be installed with:
-snap install docker          # version 28.4.0, or
-apt  install docker-compose  # version 1.29.2-6
-See 'snap info docker' for additional versions.
+time="2026-05-12T15:32:32-07:00" level=warning msg="/home/KKong76/twitter_postgres_indexes/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+sql.denormalized/01.sql pass
+sql.denormalized/02.sql pass
+sql.denormalized/03.sql pass
+sql.denormalized/04.sql pass
+sql.denormalized/05.sql pass
 
-real	0m0.137s
-user	0m0.108s
-sys	0m0.034s
+real	0m1.676s
+user	0m0.089s
+sys	0m0.063s
